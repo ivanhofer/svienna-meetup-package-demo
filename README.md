@@ -7,6 +7,7 @@ This repository demonstrates how easily a component library can be created with 
 This package contains:
  - a custom Button component that wraps a HTMLButtonElement and adds a `loading` prop. The Button is also strongly typed.
  - an [action](https://svelte.dev/docs#template-syntax-element-directives-use-action) that can be used on a `HTMLParagraphElement` to limit the amount of characters shown.
+ 	> Please don't use this action in a productive application with SSR enabled. Use the CSS [`text-overflow: ellipsis`](https://developer.mozilla.org/en-US/docs/Web/CSS/text-overflow) instead.
  - a `variables.scss` file that contains a color variable that can be used inside other projects.
 
 To let `SvelteKit` create the `npm`-package, you need to execute the `npm run package` command. This will export everything inside the `src/lib` folder into the `package` folder.
