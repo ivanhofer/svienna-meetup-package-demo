@@ -1,4 +1,4 @@
-# svienna-package-demo
+# svienna-meetup-package-demo
 
 This package is the result of a talk by [Ivan Hofer](https://github.com/ivanhofer) at the first [Svelte Society Austria](https://austria.sveltesociety.dev/) Meetup on July 4th 2022.
 
